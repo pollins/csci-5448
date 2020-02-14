@@ -49,7 +49,7 @@ public class Zoo implements Iterable<Animal> {
 	}
 	
 	/**
-	 * Blank Zoo constructor
+	 * Zoo constructor
 	 */
 	public Zoo() {
 		animals = new LinkedList<Animal>();

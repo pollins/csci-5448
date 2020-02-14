@@ -5,7 +5,7 @@
 package proj;
 
 /**
- * @author atp62
+ * @author Adam Pollins
  *
  */
 public abstract class Reptile extends Animal {
@@ -15,7 +15,6 @@ public abstract class Reptile extends Animal {
 	 */
 	public Reptile(String name) {
 		super(name);
-		// TODO Auto-generated constructor stub
 	}
 	
 	/**
