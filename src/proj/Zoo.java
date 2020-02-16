@@ -11,7 +11,7 @@ import java.util.LinkedList;
  * @author Adam Pollins
  *
  */
-public class Zoo implements Iterable<Animal> {
+public class Zoo<T> implements Iterable<Animal> {
 	
 	private LinkedList<Animal> animals;
 	
@@ -21,7 +21,7 @@ public class Zoo implements Iterable<Animal> {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Zoo zoo = new Zoo();
+		Zoo<Animal> zoo = new Zoo<Animal>();
 		
 		// add all animals
 		zoo.add(new Cat("Charles"));

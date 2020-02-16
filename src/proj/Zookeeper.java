@@ -29,7 +29,7 @@ public class Zookeeper {
 	 * Wake all the animals in the zoo
 	 * @param zoo
 	 */
-	public void wake(Zoo zoo) {
+	public void wake(Zoo<Animal> zoo) {
 		doAction("wakes the animals.");
 		for(Animal animal : zoo)
 			animal.wakeUp();
@@ -39,7 +39,7 @@ public class Zookeeper {
 	 * Call roll for all the animals
 	 * @param zoo
 	 */
-	public void rollCall(Zoo zoo) {
+	public void rollCall(Zoo<Animal> zoo) {
 		doAction("calls roll.");
 		for(Animal animal : zoo)
 			animal.makeNoise();
@@ -49,7 +49,7 @@ public class Zookeeper {
 	 * Feed all the animals
 	 * @param zoo
 	 */
-	public void feed(Zoo zoo) {
+	public void feed(Zoo<Animal> zoo) {
 		doAction("feeds the animals.");
 		for(Animal animal : zoo)
 			animal.eat();
@@ -59,7 +59,7 @@ public class Zookeeper {
 	 * Exercise all the animals
 	 * @param zoo
 	 */
-	public void exercise(Zoo zoo) {
+	public void exercise(Zoo<Animal> zoo) {
 		doAction("exercises the animals.");
 		for(Animal animal : zoo)
 			animal.roam();
@@ -69,7 +69,7 @@ public class Zookeeper {
 	 * Shut down the zoo
 	 * @param zoo
 	 */
-	public void shutDown(Zoo zoo) {
+	public void shutDown(Zoo<Animal> zoo) {
 		doAction("shuts down the zoo.");
 		for(Animal animal : zoo)
 			animal.sleep();
