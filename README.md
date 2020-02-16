@@ -3,7 +3,7 @@
 Adam Pollins
 
 ## Instructions
-Project is contained in the "proj" package, main method is contained in Zoo.java.
+Project is contained in the "proj" package, main method is contained in Zoo.java. Run with `java -jar Zoo.jar`
 
 ## Assumptions
 It is assumed that all felines will have an equal probability of doing anything, i.e., will not listen to the Zookeeper's commands.
