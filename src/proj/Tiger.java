@@ -29,7 +29,7 @@ public class Tiger extends Feline {
 	 */
 	@Override
 	public void eat() {
-		
+		doAction("eats an antelope.");
 	}
 
 }

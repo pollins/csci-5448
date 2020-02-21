@@ -21,7 +21,7 @@ public abstract class Invertebrate extends Animal {
 	 * Invertebrate-specific noise behavior
 	 */
 	public void makeNoise() {
-		System.out.println(getFullName() + " nods silently.");
+		doAction("nods silently.");
 	}
 
 }
